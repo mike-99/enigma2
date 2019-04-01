@@ -633,7 +633,7 @@ def autostart(reason, **kwargs):
 		global_session = None
 
 def main(session, **kwargs):
-	session.open(CIselectMainMenu)
+	session.open(_(CIselectMainMenu))
 
 def menu(menuid, **kwargs):
 	if menuid == "cam" and isModule():
